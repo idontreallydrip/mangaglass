@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1228"/>
+      <stop offset="100%" style="stop-color:#1a0d2e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2b8fff"/>
+      <stop offset="100%" style="stop-color:#6eb8ff"/>
+    </linearGradient>
+    <radialGradient id="mesh" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" style="stop-color:#1e3c8c; stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#000; stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="192" height="192" rx="42" fill="url(#bg)"/>
+  <rect width="192" height="192" rx="42" fill="url(#mesh)"/>
+  <rect x="10" y="10" width="172" height="172" rx="36" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="96" y="122" text-anchor="middle" font-family="-apple-system,system-ui,sans-serif" font-size="76" font-weight="800" fill="url(#glow)" letter-spacing="-2">M</text>
+</svg>
